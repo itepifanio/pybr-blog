@@ -15,6 +15,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+PLUGINS = ["photos"]
+PHOTO_LIBRARY = "content/images"
+PHOTO_INLINE_GALLERY_ENABLED = True
+PHOTO_THUMB = (192, 144, 60)
+
 THEME='theme'
 
 # Blogroll
