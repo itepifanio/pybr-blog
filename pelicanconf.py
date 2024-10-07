@@ -16,9 +16,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 PLUGINS = ["photos"]
-PHOTO_LIBRARY = "content/images"
-PHOTO_INLINE_GALLERY_ENABLED = True
-PHOTO_THUMB = (192, 144, 60)
+PHOTO_LIBRARY = "content/images/posts"
+PHOTO_ARTICLE = (760, 506, 95)
+PHOTO_THUMB = (384, 288, 95)
+
+PHOTO_DEFAULT_IMAGE_OPTIONS = {
+	"jpeg": {
+		"optimize": False
+	}
+}
 
 THEME='theme'
 

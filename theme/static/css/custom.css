@@ -244,3 +244,7 @@ nav ul li::marker {
   border: 0;
   box-shadow: none;
 }
+
+.justify-text {
+  text-align: justify;
+}
